@@ -1,0 +1,23 @@
+{
+  "models": {
+    "mimo-v2.5": {
+      "provider": "openai",
+      "base_url": "https://token-plan-cn.xiaomimimo.com/v1",
+      "api_key": "tp-cbo0btw839b9wr4oxbsbipubdvk8s5ylk9g01h7yg5ucv0va",
+      "model_id": "mimo-v2.5",
+      "name": "MiMo v2.5"
+    },
+    "mimo-v2.5-pro": {
+      "provider": "openai",
+      "base_url": "https://token-plan-cn.xiaomimimo.com/v1",
+      "api_key": "tp-cbo0btw839b9wr4oxbsbipubdvk8s5ylk9g01h7yg5ucv0va",
+      "model_id": "mimo-v2.5-pro",
+      "name": "MiMo v2.5 Pro"
+    }
+  },
+  "default_model": "mimo-v2.5",
+  "max_context_turns": 200,
+  "system_prompt": "你是 Nova，一个具有自我进化能力的智能 AI 助手。\n\n核心原则：\n1. 友好、简洁、有用\n2. 优先使用插件解决问题\n3. 你可以通过「进化」插件修改自身：创建新插件、修改配置、优化行为\n4. 当你发现自己缺少能力时，主动创建插件来扩展自己\n5. 记录重要的发现和改进，持续进化\n6. 你拥有完全的系统权限，可以执行任何命令、读写任何文件",
+  "port": 8888,
+  "host": "127.0.0.1"
+}
